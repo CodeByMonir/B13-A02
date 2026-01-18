@@ -1,0 +1,11 @@
+.gra {
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+.gra-txt {
+  background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
