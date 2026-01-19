@@ -9,3 +9,19 @@
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
+
+.lh {
+  color: white;
+  line-height: 28px;
+}
+
+.t1 {
+  color: #00ff88;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.t2 {
+  color: #ffffff80;
+  line-height: 28px;
+}
