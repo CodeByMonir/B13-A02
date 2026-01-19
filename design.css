@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 .gra {
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
 }
