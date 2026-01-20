@@ -2,6 +2,11 @@
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
 }
 
+.gra:hover {
+  background: linear-gradient(-135deg, #F7E93F, #FB09B4, #9100F8);
+  color: #ffffff90;
+}
+
 .gra-txt {
   background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
   -webkit-background-clip: text;
@@ -25,3 +30,4 @@
   color: #ffffff80;
   line-height: 28px;
 }
+
