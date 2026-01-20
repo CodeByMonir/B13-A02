@@ -1,10 +1,11 @@
 .gra {
-    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+  background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+  transition: 0.5s;
 }
 
 .gra:hover {
   background: linear-gradient(-135deg, #F7E93F, #FB09B4, #9100F8);
-  color: #ffffff90;
+  color: #c7c5c590;
 }
 
 .gra-txt {
@@ -31,3 +32,24 @@
   line-height: 28px;
 }
 
+/* mara khawa animation */
+
+@keyframes shad-ani {
+    0%, 100% {
+        box-shadow: 2px 3px 27px #00ff8880;
+    }
+    50% {
+        box-shadow: 2px 3px 35px #00ff88cc;
+    }
+}
+
+@media (max-width: 577px) {
+    @keyframes shad-ani-mobile {
+        0%, 100% {
+            box-shadow: 2px 3px 17px #00ff8880;
+        }
+        50% {
+            box-shadow: 2px 3px 25px #00ff88cc;
+        }
+    }
+}
